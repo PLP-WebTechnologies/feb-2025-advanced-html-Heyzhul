@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Assignment</title>
+</head>
+<body>
+
+    <!-- Ordered list with Roman numerals -->
+    <h2>Ordered List with Roman Numerals</h2>
+    <ol type="I">
+        <li>First item</li>
+        <li>Second item</li>
+        <li>Third item</li>
+    </ol>
+
+    <!-- External image from Pexels -->
+    <h2>External Image</h2>
+    <img src="https://images.pexels.com/photos/1796691/pexels-photo-1796691.jpeg" alt="Nature Image" width="600">
+
+    <!-- Table of Contacts -->
+    <h2>Contact List</h2>
+    <table border="1">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Mobile</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>Jane Doe</td>
+                <td>123 Elm St</td>
+                <td>(555) 123-4567</td>
+                <td>jane@example.com</td>
+            </tr>
+            <tr>
+                <td>John Smith</td>
+                <td>456 Oak St</td>
+                <td>(555) 234-5678</td>
+                <td>john@example.com</td>
+            </tr>
+            <tr>
+                <td>Emily Clark</td>
+                <td>789 Pine St</td>
+                <td>(555) 345-6789</td>
+                <td>emily@example.com</td>
+            </tr>
+            <tr>
+                <td>Michael Johnson</td>
+                <td>101 Maple St</td>
+                <td>(555) 456-7890</td>
+                <td>michael@example.com</td>
+            </tr>
+            <tr>
+                <td>Amy Lee</td>
+                <td>202 Birch St</td>
+                <td>(555) 567-8901</td>
+                <td>amy@example.com</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <!-- Registration Form -->
+    <h2>Registration Form</h2>
+    <form action="#" method="POST">
+        <!-- Name Field -->
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your name" required><br><br>
+
+        <!-- Email Field -->
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your email" required><br><br>
+
+        <!-- Password Field -->
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your password" required><br><br>
+
+        <!-- Date Field -->
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob" required><br><br>
+
+        <!-- Dropdown -->
+        <label for="country">Country:</label>
+        <select id="country" name="country" required>
+            <option value="usa">USA</option>
+            <option value="canada">Canada</option>
+            <option value="uk">UK</option>
+            <option value="australia">Australia</option>
+        </select><br><br>
+
+        <!-- Radio Buttons -->
+        <label>Gender:</label>
+        <input type="radio" id="male" name="gender" value="male" required>
+        <label for="male">Male</label>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br><br>
+
+        <!-- Checkboxes -->
+        <label for="subscribe">Subscribe to newsletter:</label>
+        <input type="checkbox" id="subscribe" name="subscribe" value="yes"><br><br>
+
+        <!-- Submit Button -->
+        <input type="submit" value="Register">
+    </form>
+
+</body>
+</html>
